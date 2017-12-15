@@ -35,6 +35,14 @@
 						<classpathContainer>org.eclipse.jdt.launching.JRE_CONTAINER</classpathContainer>
 						<classpathContainer>org.eclipse.jdt.USER_LIBRARY/TOMCAT_6.0.14_LIBRARY</classpathContainer>
 					</classpathContainers>
+					 <artifactItems>
+                            <artifactItem>
+                                <groupId>com.github.jsimone</groupId>
+                                <artifactId>webapp-runner</artifactId>
+                                <version>8.0.30.2</version>
+                                <destFileName>webapp-runner.jar</destFileName>
+                            </artifactItem>
+                        </artifactItems>
 				</configuration>
 			</plugin>
 		</plugins>
